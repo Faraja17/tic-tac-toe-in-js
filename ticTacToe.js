@@ -33,6 +33,19 @@ winMessage = () => {
     exit();
 }
 
+// function winner(Object.keys) {
+//     firstLetterCount = 0;
+//     secondLetterCount = 0;
+
+//     if ((Object.keys(theBoard)[0] === move[0]) && (theBoard[k] === turn)) {
+//         firstLetterCount+=1;
+//     }
+//     if (firstLetterCount === 3) {
+//         winMessage();
+//     }
+// }
+
+
 // players enter moves
 
     let turn = 'X';
@@ -44,6 +57,7 @@ winMessage = () => {
         
         //determine and announce winner
 
+        // theBoard.forEach(winner(Object.keys));
 
         if (turn === 'X') {
             turn = 'O';
