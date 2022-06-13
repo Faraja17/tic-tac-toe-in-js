@@ -17,7 +17,7 @@ Descripton: This project is based on a game I learned in Python. Let's see if I 
 
 ## Overview
 
-I was successful at modifying and extending the beginnings of a tic tac toe game I had learned in Chapter 5 of *Automate the Boring Stuff* by Al Sweigart. 
+I was successful at modifying and extending the beginnings of a tic tac toe game I had learned in Chapter 5 of *Automate the Boring Stuff with Python* by Al Sweigart. 
 You can [read details about that project here.](https://github.com/Faraja17/tic-tac-toe-in-python)
 
 So, for this project, I am challenging myself to translate the game into JavaScript. 
