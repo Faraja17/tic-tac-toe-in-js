@@ -21,9 +21,9 @@ console.log(
 printBoard = (board) =>
 
     console.log(
-        `${Object.values(theBoard)[0]} ${Object.values(theBoard)[1]} ${Object.values(theBoard)[2]}
-        \n ${Object.values(theBoard)[3]} ${Object.values(theBoard)[4]} ${Object.values(theBoard)[5]}
-        \n ${Object.values(theBoard)[6]} ${Object.values(theBoard)[7]} ${Object.values(theBoard)[8]}`
+        `${Object.values(board)[0]} ${Object.values(board)[1]} ${Object.values(board)[2]}
+        \n ${Object.values(board)[3]} ${Object.values(board)[4]} ${Object.values(board)[5]}
+        \n ${Object.values(board)[6]} ${Object.values(board)[7]} ${Object.values(board)[8]}`
     );
 
 printBoard(theBoard);
