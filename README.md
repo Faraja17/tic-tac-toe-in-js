@@ -91,7 +91,7 @@ winMessage = () => {
         }
     }
 printBoard(theBoard);
-alert(`It is a draw!
+alert(`It is a draw!`);
 ```
 
 ### Links
