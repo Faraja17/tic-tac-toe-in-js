@@ -48,10 +48,24 @@ alert(
 printBoard = (board) =>
 
     alert(
-        `${Object.values(board)[0]} ${Object.values(board)[1]} ${Object.values(board)[2]}
-        \n${Object.values(board)[3]} ${Object.values(board)[4]} ${Object.values(board)[5]}
-        \n${Object.values(board)[6]} ${Object.values(board)[7]} ${Object.values(board)[8]}`
+        `#####
+        \n${Object.values(board)[0]}   ${Object.values(board)[1]}   ${Object.values(board)[2]}
+        \n${Object.values(board)[3]}   ${Object.values(board)[4]}   ${Object.values(board)[5]}
+        \n${Object.values(board)[6]}   ${Object.values(board)[7]}   ${Object.values(board)[8]}
+        \n#####`
     );
+
+// printed board + draw alert
+
+printDrawBoard = (board) =>
+
+    alert(
+        `${Object.values(board)[0]}   ${Object.values(board)[1]}   ${Object.values(board)[2]}
+        \n${Object.values(board)[3]}   ${Object.values(board)[4]}   ${Object.values(board)[5]}
+        \n${Object.values(board)[6]}   ${Object.values(board)[7]}   ${Object.values(board)[8]}
+        \n It's a draw!`
+    );
+
 
 //win announcement and game exit
 
@@ -94,7 +108,7 @@ winMessage = () => {
         }
     }
 printBoard(theBoard);
-alert(`It is a draw!`);
+printDrawBoard(theBoard);
 ```
 
 ### Links
