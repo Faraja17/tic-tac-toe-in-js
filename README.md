@@ -48,11 +48,11 @@ alert(
 printBoard = (board) =>
 
     alert(
-        `#####
-        \n${Object.values(board)[0]}   ${Object.values(board)[1]}   ${Object.values(board)[2]}
-        \n${Object.values(board)[3]}   ${Object.values(board)[4]}   ${Object.values(board)[5]}
-        \n${Object.values(board)[6]}   ${Object.values(board)[7]}   ${Object.values(board)[8]}
-        \n#####`
+        `              ########################## 
+        \n                                     ${Object.values(board)[0]}   ${Object.values(board)[1]}   ${Object.values(board)[2]}
+        \n                                     ${Object.values(board)[3]}   ${Object.values(board)[4]}   ${Object.values(board)[5]}
+        \n                                     ${Object.values(board)[6]}   ${Object.values(board)[7]}   ${Object.values(board)[8]}
+        \n             ##########################`
     );
 
 // printed board + draw alert
@@ -60,10 +60,11 @@ printBoard = (board) =>
 printDrawBoard = (board) =>
 
     alert(
-        `${Object.values(board)[0]}   ${Object.values(board)[1]}   ${Object.values(board)[2]}
-        \n${Object.values(board)[3]}   ${Object.values(board)[4]}   ${Object.values(board)[5]}
-        \n${Object.values(board)[6]}   ${Object.values(board)[7]}   ${Object.values(board)[8]}
-        \n It's a draw!`
+        `              ######  IT'S   A   DRAW!  ######
+        \n                                     ${Object.values(board)[0]}   ${Object.values(board)[1]}   ${Object.values(board)[2]}
+        \n                                     ${Object.values(board)[3]}   ${Object.values(board)[4]}   ${Object.values(board)[5]}
+        \n                                     ${Object.values(board)[6]}   ${Object.values(board)[7]}   ${Object.values(board)[8]}
+        \n             ######  IT'S   A   DRAW!  ######`
     );
 
 
