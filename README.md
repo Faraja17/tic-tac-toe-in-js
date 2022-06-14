@@ -119,9 +119,8 @@ alert(`It is a draw!`);
 
 ### Useful resources
 
-- []() - annotation
-- []() - annotation
-- 
+- [*Automate the Boring Stuff with Python*](https://automatetheboringstuff.com/2e/chapter5/) - by Al Sweigart, Chapter 5
+ 
 ## Author
 
 Faraja Thompson
