@@ -67,12 +67,22 @@ printDrawBoard = (board) =>
         \n             ######  IT'S   A   DRAW!  ######`
     );
 
+// printed board + win alert
+
+printWinBoard = (board) =>
+
+alert(
+    `              ######  PLAYER ${turn} WINS!  ######
+    \n                                     ${Object.values(board)[0]}   ${Object.values(board)[1]}   ${Object.values(board)[2]}
+    \n                                     ${Object.values(board)[3]}   ${Object.values(board)[4]}   ${Object.values(board)[5]}
+    \n                                     ${Object.values(board)[6]}   ${Object.values(board)[7]}   ${Object.values(board)[8]}
+    \n             ######  PLAYER ${turn} WINS!  ######`
+);
 
 //win announcement and game exit
 
 winMessage = () => {
-    printBoard(theBoard);
-    alert(`${turn} wins!`);
+    printWinBoard(theBoard);
     exit();
 }
 
@@ -95,7 +105,7 @@ winMessage = () => {
 
     for (let i = 0; i < 9; i++) {
         printBoard(theBoard);
-        move = prompt(`${turn}, it is your turn. Select a spot.`);
+        move = prompt(`${turn}, it's your turn. Select a spot.`);
         theBoard[move] = `${turn}`;
         
         //determine and announce winner
